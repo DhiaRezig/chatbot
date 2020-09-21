@@ -1,0 +1,21 @@
+{
+    "Records":[
+      {
+        "eventVersion":"2.0",
+        "eventSource":"aws:s3",
+        "awsRegion":"eu-west-3",
+        "eventTime":"2020-09-17T00:12:00.000Z",
+        "eventName":"ObjectCreated:DemoEvent",
+        "userIdentity":{
+          "principalId":"A3MCB9FEJCFJSY"
+        },
+        "requestParameters":{
+          "sourceIPAddress":"127.0.0.1"
+        },
+        "responseElements":{
+          "x-amz-request-id":"3966C864F562A6A0",
+          "x-amz-id-2":"2radsa8X4nKpba7KbgVurmc7rwe/SDoYLFid6MZKn18Nocpe3Ofwo5TJ+uJCnkf/"
+        }
+      }
+    ]
+  }
