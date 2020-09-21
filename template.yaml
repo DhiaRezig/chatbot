@@ -6,7 +6,7 @@ Resources:
         Properties:
             Handler: index.handler
             Runtime: nodejs4.3
-            CodeUri: function.zip
+            CodeUri: Lambda-Deployment.zip
             Timeout: 25
             Environment:
                 Variables:
