@@ -9,4 +9,9 @@ artifacts:
     type: zip
     files:
         - template.yaml
+<<<<<<< HEAD
         - outputTemplate.yaml
+=======
+        - outputTemplate.yaml
+>>>>>>> 06b3a51f5855ad08b10756e7432e0b370ca3d7e6
+
