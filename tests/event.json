@@ -17,5 +17,8 @@
           "x-amz-id-2":"2radsa8X4nKpba7KbgVurmc7rwe/SDoYLFid6MZKn18Nocpe3Ofwo5TJ+uJCnkf/"
         }
       }
-    ]
+    ],
+    "body":{
+      "productName":"first product"
+    }
   }

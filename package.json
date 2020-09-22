@@ -11,9 +11,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  
   "dependencies": {
+    "aws-sdk": "^2.757.0",
     "run-local-lambda": "^1.1.1"
   }
-
 }
