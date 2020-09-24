@@ -1,3 +1,3 @@
 exports.handler =function(event, context, callback){
-    console.log("select");
+    console.log("select function");
 }
