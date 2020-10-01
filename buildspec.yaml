@@ -8,6 +8,6 @@ phases:
 artifacts:
     type: zip
     files:
-        - template.yaml
-        - outputTemplate.yaml
+        - template.yml
+        - outputTemplate.yml
 
