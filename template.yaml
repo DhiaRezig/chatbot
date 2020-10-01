@@ -40,7 +40,7 @@ Resources:
             Action: 
               - "codedeploy:PutLifecycleEventHookExecutionStatus"
             Resource:
-              !Sub 'arn:aws:codedeploy:${AWS::Region}:${AWS::AccountId}:deploymentgroup:${ServerlessDeploymentApplication}/*'
+              !Sub 'arn:aws:codedeploy:${AWS::eu-west-3}:${AWS::2261-7506-8164}:deploymentgroup:${ServerlessDeploymentApplication}/*'
         - Version: "2012-10-17"
 # Grants this function permission to call lambda:InvokeFunction        
           Statement: 
