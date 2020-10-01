@@ -4,7 +4,7 @@ phases:
         runtime-versions:
             nodejs: 10
         commands:
-            - aws cloudformation package --template-file template.yaml --s3-bucket chatbotprojectbucket --output-template-file outputTemplate.yaml
+            - aws cloudformation package --template-file template.yml --s3-bucket chatbotprojectbucket --output-template-file outputTemplate.yml
 artifacts:
     type: zip
     files:
