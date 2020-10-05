@@ -22,7 +22,7 @@ Resources:
             Ref: beforeAllowTraffic
           PostTraffic:
             Ref: afterAllowTraffic
-      CodeUri: s3://chatbotprojectbucket/1ebaeb01a4a5bbd44ba1cdb363d76110
+      CodeUri: s3://chatbotprojectbucket/395c021568c105846a71280d34f1612c
   beforeAllowTraffic:
     Type: AWS::Serverless::Function
     Properties:
@@ -35,6 +35,7 @@ Resources:
           - codedeploy:PutLifecycleEventHookExecutionStatus
           Resource:
             Fn::Sub: arn:aws:codedeploy:${AWS::Region}:${AWS::AccountId}:deploymentgroup:${ServerlessDeploymentApplication}/*
+      - Version: '2012-10-17'
         Statement:
         - Effect: Allow
           Action:
@@ -50,7 +51,7 @@ Resources:
         Variables:
           NewVersion:
             Ref: selectFuntion.Version
-      CodeUri: s3://chatbotprojectbucket/1ebaeb01a4a5bbd44ba1cdb363d76110
+      CodeUri: s3://chatbotprojectbucket/395c021568c105846a71280d34f1612c
   afterAllowTraffic:
     Type: AWS::Serverless::Function
     Properties:
@@ -79,4 +80,4 @@ Resources:
         Variables:
           NewVersion:
             Ref: selectFuntion.Version
-      CodeUri: s3://chatbotprojectbucket/1ebaeb01a4a5bbd44ba1cdb363d76110
+      CodeUri: s3://chatbotprojectbucket/395c021568c105846a71280d34f1612c
